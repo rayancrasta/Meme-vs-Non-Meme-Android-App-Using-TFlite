@@ -11,9 +11,6 @@ The machine learning model is implemented using the Tensorflow Lite library whic
 ![img2.jpeg]
 ![img2.jpeg]
 
-![Meme%20vs%20Non%20Meme%20Android%20App%20Using%20TFlite%205fc5a48766ac4fbdadb4e5787b76f62b/WhatsApp_Image_2020-07-15_at_10.17.55_PM%201.jpeg](Meme%20vs%20Non%20Meme%20Android%20App%20Using%20TFlite%205fc5a48766ac4fbdadb4e5787b76f62b/WhatsApp_Image_2020-07-15_at_10.17.55_PM%201.jpeg)
-
-![Meme%20vs%20Non%20Meme%20Android%20App%20Using%20TFlite%205fc5a48766ac4fbdadb4e5787b76f62b/WhatsApp_Image_2020-07-15_at_10.17.55_PM%202.jpeg](Meme%20vs%20Non%20Meme%20Android%20App%20Using%20TFlite%205fc5a48766ac4fbdadb4e5787b76f62b/WhatsApp_Image_2020-07-15_at_10.17.55_PM%202.jpeg)
 
 Type of Classification done here is **Binary Classification.**
 
