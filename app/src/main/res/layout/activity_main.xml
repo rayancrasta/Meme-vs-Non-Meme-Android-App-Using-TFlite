@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="208dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_background"
+        android:shadowColor="#2196F3"
+        android:text="Input Image"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/recognitionTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="208dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLoadPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon"
+        tools:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/recognitionTextView"
+        android:layout_width="153dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="97dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoadPicture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
